@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>DevsBank</title>
+        </head>
+        <body>
+            <h1>DevsBank</h1>
+            <img src="../img/Career-in-Banking.png" width="1250px">
+    
+        </body>
+        <script>
+            var nombreCompleto = prompt("Ingrese su nombre completo: ")
+            var edad = Number.parseInt(prompt("Ingrese su edad: "))
+            var direccion = window.prompt("Ingrese su dirección: ")
+            var email = window.prompt("Ingrese su email: ")
+            var cpf = Number.parseInt(prompt("Ingrese su cpf: "))
+            var telefono = Number.parseInt(prompt("Ingrese su telefono: "))
+
+            document.writeln("<br>")
+            document.writeln('Bienvenido/a al banco DevsBank, ' + nombreCompleto)
+            document.writeln("<br>")
+            document.writeln('Usted tiene ' + edad + ' años y vive en la dirección ' + direccion)
+            document.writeln("<br>")
+            document.writeln('Usted debe ingresar su email: ' + email + ' | para utilizar el sistema')
+            document.writeln("<br>")
+            document.writeln('Su identificador único es: ' + cpf)
+            document.writeln("<br>")
+            document.writeln('Datos de contacto: ' + telefono)
+
+        </script>
+    </html>

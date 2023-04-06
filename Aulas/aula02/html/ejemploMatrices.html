@@ -1,0 +1,29 @@
+<html>
+    <head>
+    </head>
+    <body>
+    </body>
+    <script>
+        /**
+        const quantidadeLinhas = 3
+        const quantidadeColunas = 3
+        */
+
+        var matriz = [[], [], []]
+
+        for(var linha=0; linha < 3; linha++){
+            for(var coluna=0; coluna < 3; coluna++){
+                matriz[linha][coluna] = window.prompt("Digite um numero para inserir: ")
+            }
+        }
+
+        for(var linha=0; linha < 3; linha++){
+            for(var coluna=0; coluna < 3; coluna++){
+                document.write(matriz[linha][coluna] + ", ")
+            }
+            document.write("</br>")
+        }
+
+    </script>
+
+</html>
