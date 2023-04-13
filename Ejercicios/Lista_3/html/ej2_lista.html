@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pelicula Fav</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var database = []
+
+    for(var i = 0; i < 3; i++){
+        var nombreDePeliculaFav = window.prompt("Informe el nombre de su pelicula favorita: ")
+        var anoLanzamiento = window.prompt("Informe el año de lanzamiento: ")
+        var nombreProtagonista = window.prompt("Informe el nombre del/la protagonista: ")
+
+        var pelicula = {
+            nombre: nombreDePeliculaFav,
+            lanzamiento: anoLanzamiento,
+            protagonista: nombreProtagonista
+        }
+
+        database.push(pelicula);
+    }
+    
+    for(var i = 0; i < database.length; i++){
+        document.write("<br>Nombre de pelicula: " + database[i].nombre)
+        document.write("<br>Lanzamiento: " + database[i].lanzamiento)
+        document.write("<br>Protagonista: " + database[i].protagonista)
+        console.log(database)
+    }
+       
+</script>    
+</html>

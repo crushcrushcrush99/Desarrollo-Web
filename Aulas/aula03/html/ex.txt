@@ -1,0 +1,3 @@
+crear un objeto con los siguientes valores ingeridos por el usuario - prompt()
+    Nome da empresa 
+    CNPJ - Usar info. ficticias
