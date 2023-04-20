@@ -1,0 +1,29 @@
+
+     body{
+        margin: 50;
+        border: 20px solid pink;
+        padding: 20px;;
+        box-sizing: border-box;
+        background-color: rgb(54, 37, 70);
+    }
+    h1 {
+        color: rgb(202, 108, 0);
+        text-align: center;
+        background-color: rgb(119, 7, 76);
+    }
+    p{
+        font-size: 22px;
+        color: rgb(221, 94, 153);
+        text-align: center;
+    }
+    #p2{
+        font-size: 24px;
+        color: rgb(143, 5, 51);
+        text-align: center;
+    }
+    #p3{
+        font-size: 28px;
+        color:rgb(148, 12, 107);
+        text-align: center;
+    }
+    
