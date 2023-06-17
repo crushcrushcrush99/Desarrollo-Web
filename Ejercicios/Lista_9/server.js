@@ -4,6 +4,7 @@ const app = express()
 const port = 8050
 const connectionString = "mongodb+srv://admin:teste123@appdb.wv6kdpm.mongodb.net/"
 const Bebida = require('./models/bebida')
+const Aperitivo = require('./models/aperitivo')
 
 app.use(express.json())
 
@@ -40,7 +41,7 @@ app.post('/agregar-bebida', async (req, res) =>{
 
 app.get("/listar-aperitivos", async (req, res) => {
     try {
-        let aperitivos = await Lanche.find()
+        let aperitivos = await Aperitivo.find()
         return res.status(200).json(aperitivos)
     } catch (error) {
         return res.status(500).json(error)
