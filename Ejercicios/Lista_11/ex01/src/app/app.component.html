@@ -1,0 +1,25 @@
+<body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  </style>
+  <h1> Pasteleria <em>"Cake Bash"</em></h1>
+  <div id="menu">
+    <a class="item-menu" href="#">Home</a>
+    <a class="item-menu" href="#">Productos</a>
+    <a class="item-menu" href="#">Sobre nosotros</a>
+    <a class="item-menu" href="#">Contacto</a>
+  </div>
+  
+    <div class= "productos">
+      <div class="producto" *ngFor="let producto of productos">
+        <img [src]="producto.imagen" />
+        <h3>{{producto.nombre}}</h3>
+        <p>{{producto.descripcion}}</p>
+        <p>${{producto.valor}}</p>
+        <button>Detalles</button>
+        <button>Comprar</button>
+      </div>
+      <br>
+      <br>
+  </div>
+</body>

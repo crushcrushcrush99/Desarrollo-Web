@@ -1,0 +1,77 @@
+#menu{
+  display: flex;
+  justify-content: center;
+}
+.item-menu{
+  font-size: 26px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 5px;
+  text-decoration: none;
+  color:rgb(142, 124, 155);
+  font-family: 'Times New Roman', Times, serif;
+}
+.item-menu:hover{
+  color:rgb(120, 80, 122);
+  transition: .1 ease-in;
+}
+
+/*productos*/
+
+.productos{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.producto{
+  border: 1px solid rgb(255, 255, 255);
+  width: 350px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.producto img{
+  width: 275px;
+  margin: 2px;
+
+}
+
+.producto h3{
+  color:rgba(44, 2, 54, 0.63);
+  margin: 5px;
+}
+
+.producto p{
+  font-size: 20px;
+  color: rgb(136, 42, 139);
+}
+
+.producto button{
+  background-color: #5c97e4;
+  color: rgb(255, 255, 255);
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.producto button:hover{
+  background-color: rgb(169, 149, 185);
+}
+
+/*extra*/
+
+body{
+  background-color: rgb(219, 203, 178);
+}
+h1{
+  text-align: center;
+  color: rgb(224, 156, 201);
+  font-family: 'Lobster', cursive;
+  background-color: rgba(179, 144, 100, 0.911);
+  border-style: solid;
+}
